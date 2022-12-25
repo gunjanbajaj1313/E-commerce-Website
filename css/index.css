@@ -1,0 +1,154 @@
+body{
+    background: linear-gradient(90deg, rgba(31,110,114,1) 23%, rgba(13,163,188,1) 100%);
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.mainHeaderSection{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(31,110,114,1) 23%, rgba(13,163,188,1) 100%);
+    padding: 5px;
+    
+}
+
+.brand-name{
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(31,110,114,1) 23%, rgba(13,163,188,1) 100%);
+    border-radius: 60px;
+    padding: 4px 20px;
+}
+
+.jumbotron-img{
+    height: 300px;
+    border-radius: 60%;
+}
+
+.my-4{
+    width: 25%;
+}
+
+.btn-primary{
+    background: linear-gradient(90deg, rgba(31,110,114,1) 23%, rgba(13,163,188,1) 100%);
+}
+
+.navbar{
+    background: linear-gradient(90deg, rgba(31,110,114,1) 23%, rgba(13,163,188,1) 100%);
+}
+
+
+.nav-item:hover {
+	cursor: pointer;
+}
+
+.cart-item-img{
+    padding: 25px;
+}
+
+.cart-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cartItemBody{
+    text-align: center;
+}
+
+#empty-cart-img{
+    height: 300px;
+}
+
+.btn{
+    border:none
+}
+.btn:active {
+	box-shadow: none;
+}
+.btn:focus {
+	box-shadow: none;
+}
+
+.navbar-brand img{
+    border-radius: 10px;
+    margin-right: 2px;
+}
+
+#products{
+    padding-top: 60px;
+}
+
+#products-spinner{
+    margin: 50px auto;
+}
+
+#aboutUs{
+   background-color: #65b1b9;
+   text-align: center;
+   padding: 50px 20px; 
+   margin: 40px 0;
+   border-radius: 40%;
+}
+#contactUs{
+    background: #65b1b9;
+   text-align: center;
+   padding: 50px 20px; 
+   margin: 20px 0;
+   border-radius: 40%;
+}
+
+.card.product .product-header{
+    display: flex;
+    justify-content: space-between;
+    height: 39px;
+}
+
+.card.product{
+    margin: 10px 0;
+}
+
+.card.product .card-img-top{
+    height: 250px;
+}
+.card.product .btn-outer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.card.product .btn-outer .buy-btn{
+    width: 100px;
+}
+
+.card-title.product-price{
+    color:#64c4d4;
+    margin-left: 4px;
+}
+
+.fa-star.checked, .fa-star-half-full {
+    color: orange;
+}
+
+.card-text{
+    height: 72px;
+}
+
+.rating-count{
+    margin-left: 5px;
+}
+
+.add-to-cart-btn, .buy-btn{
+    flex: 1;
+    margin: 0 0 0 5px;
+}
+#cart-item-body{
+    text-align: center;
+}
+
+#notification-alert{
+    position: absolute;
+    right: 10px;
+    display: none;
+}
